@@ -1,7 +1,7 @@
 import { View, Text, Pressable, StyleSheet, Platform } from "react-native";
-import React from "react";
 
 export default function CategoryGridTile({ title, color, onPress }) {
+
   return (
     <View style={styles.gridItem}>
       <Pressable
